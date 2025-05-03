@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CLASS-SMD</string>
+    <string name="button">Button</string>
+    <string name="send">Send</string>
+    <string name="send_2">Send 2</string>
+    <string name="send1">send1</string>
+    <string name="send_3">send 3</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+    <string name="go_to_next_activity">go to next activity</string>
+    <string name="this_is_text">This is Text</string>
+</resources>
