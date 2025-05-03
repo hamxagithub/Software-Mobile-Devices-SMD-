@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ASSIGNMENTNO#1</string>
+    <string name="shopeasy">ShopEasy</string>
+    <string name="product_name">Product Name</string>
+    <string name="_199">$199</string>
+    <string name="electronics">Electronics</string>
+    <string name="all">All</string>
+    <string name="fashion">Fashion</string>
+    <string name="_123_456_7890">123-456-7890</string>
+    <string name="search_contacts">Search contacts...</string>
+</resources>
