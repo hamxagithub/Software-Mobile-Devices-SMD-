@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FITNESS_SCHEDULE</string>
+    <string name="new_schedule">NEW SCHEDULE</string>
+    <string name="enter_the_day">Enter the Day</string>
+    <string name="enter_the_sport">Enter the Sport</string>
+    <string name="sport">SPORT</string>
+    <string name="submit">Submit</string>
+    <string name="day">DAY</string>
+    <string name="button">Button</string>
+</resources>
