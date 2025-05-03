@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ML KIT APP</string>
+    
+    <!-- Object Detection Strings -->
+    <string name="object_detection_title">Object Detection</string>
+    <string name="capture">Capture</string>
+    <string name="resume">Resume</string>
+    <string name="detected_objects">Detected Objects</string>
+    <string name="settings">Settings</string>
+    <string name="apply">Apply</string>
+    <string name="detection_mode">Detection Mode:</string>
+    <string name="multiple_objects">Multiple Objects</string>
+    <string name="single_object">Single Object (Best Match)</string>
+    <string name="detection_model">Detection Model:</string>
+    <string name="confidence_threshold_format">Confidence Threshold: %d%%</string>
+    <string name="auto_save">Auto-save detection results</string>
+    <string name="export_options">Export Options</string>
+    <string name="export_image">Image with Annotations</string>
+    <string name="export_csv">CSV Data</string>
+    <string name="export_json">JSON Data</string>
+    <string name="cancel">Cancel</string>
+    <string name="export">Export</string>
+    <string name="tracking_on">Tracking On</string>
+    <string name="tracking_off">Tracking Off</string>
+    <string name="object_details">Object Details</string>
+    <string name="classification">Classification</string>
+    <string name="confidence">Confidence</string>
+    <string name="bounding_box">Bounding Box</string>
+    <string name="bounding_box_format">X: %1$d, Y: %2$d, Width: %3$d, Height: %4$d</string>
+    <string name="share">Share</string>
+    <string name="close">Close</string>
+    <string name="confidence_value_format">%d%%</string>
+    <string name="object_location_format">X: %1$d, Y: %2$d</string>
+    <string name="object_size_format">Width: %1$dpx, Height: %2$dpx</string>
+    
+    <!-- Model selection options -->
+    <string-array name="object_detection_models">
+        <item>Base Object Detector</item>
+        <item>Accurate Object Detector</item>
+        <item>Base Model (Quantized)</item>
+        <item>Custom Model</item>
+    </string-array>
+</resources>

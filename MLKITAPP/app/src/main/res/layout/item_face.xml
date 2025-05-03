@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+        
+        <!-- Face ID with icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="4dp">
+            
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_myplaces"
+                android:tint="#2196F3"
+                android:layout_marginEnd="8dp"/>
+            
+            <TextView
+                android:id="@+id/tv_face_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Face #1"/>
+        </LinearLayout>
+            
+        <!-- Smile probability with icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+            
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:tint="#FF9800"
+                android:layout_marginEnd="8dp"/>
+            
+            <TextView
+                android:id="@+id/tv_smile_probability"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Smile: --"/>
+                
+            <ProgressBar
+                android:id="@+id/pb_smile"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:max="100"/>
+        </LinearLayout>
+            
+        <!-- Right eye with icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+            
+            <ImageView
+                android:id="@+id/iv_right_eye"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_view"
+                android:tint="#4CAF50"
+                android:layout_marginEnd="8dp"/>
+            
+            <TextView
+                android:id="@+id/tv_right_eye_open"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Right eye: --"/>
+                
+            <ProgressBar
+                android:id="@+id/pb_right_eye"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:max="100"/>
+        </LinearLayout>
+            
+        <!-- Left eye with icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+            
+            <ImageView
+                android:id="@+id/iv_left_eye"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_view"
+                android:tint="#4CAF50"
+                android:layout_marginEnd="8dp"/>
+            
+            <TextView
+                android:id="@+id/tv_left_eye_open"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Left eye: --"/>
+                
+            <ProgressBar
+                android:id="@+id/pb_left_eye"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:max="100"/>
+        </LinearLayout>
+        
+        <!-- Face rotation with icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+            
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_rotate"
+                android:tint="#9C27B0"
+                android:layout_marginEnd="8dp"/>
+            
+            <TextView
+                android:id="@+id/tv_face_rotation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotation: -- degrees"/>
+        </LinearLayout>
+        
+        <!-- Tracking ID for multiple faces -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+            
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:tint="#607D8B"
+                android:layout_marginEnd="8dp"/>
+            
+            <TextView
+                android:id="@+id/tv_tracking_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tracking ID: --"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
