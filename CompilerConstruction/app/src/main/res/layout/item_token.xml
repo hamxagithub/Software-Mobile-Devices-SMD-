@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:elevation="2dp"
+    android:marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/tv_lexeme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lexeme"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_token_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/token_name"/>
+
+    <TextView
+        android:id="@+id/tv_attribute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attribute"/>
+
+    <TextView
+        android:id="@+id/tv_line_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_number"/>
+</LinearLayout>

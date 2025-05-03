@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CompilerConstruction</string>
+    <string name="enter_your_code_here">Enter your code here...</string>
+    <string name="syntax_analyzer">Syntax Analyzer</string>
+    <string name="exit">Exit</string>
+    <string name="lexical_analyzer">Lexical Analyzer</string>
+    <string name="input_code">INPUT CODE</string>
+    <string name="output_result">OUTPUT RESULT</string>
+    <string name="attribute">Attribute</string>
+    <string name="lexeme">Lexeme</string>
+    <string name="line_number">Line Number</string>
+    <string name="token_name">Token Name</string>
+</resources>

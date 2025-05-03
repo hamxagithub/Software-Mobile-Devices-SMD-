@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F9F9F9">
+
+    <!-- Input Code Section -->
+    <TextView
+        android:id="@+id/tv_input_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_code"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_input_code"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="@string/enter_your_code_here"
+        android:gravity="top"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <!-- Output Section -->
+    <TextView
+        android:id="@+id/tv_output_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output_result"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingTop="16dp"/>
+
+    <!-- RecyclerView for Token Display -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tokens"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:scrollbars="vertical"/>
+
+    <!-- Buttons -->
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/btn_lexical_analyzer"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lexical_analyzer"
+            android:backgroundTint="#6A5ACD"
+            android:textColor="#FFF"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn_syntax_analyzer"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/syntax_analyzer"
+            android:backgroundTint="#6A5ACD"
+            android:textColor="#FFF"
+            android:padding="8dp"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFF"
+            android:padding="8dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+</LinearLayout>
