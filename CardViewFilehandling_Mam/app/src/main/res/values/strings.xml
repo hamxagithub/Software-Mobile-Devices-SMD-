@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CardView+Filehandling_Mam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_fragment_1">Open Fragment 1</string>
+    <string name="open_fragment_3">Open Fragment 3</string>
+    <string name="open_fragment_2">Open Fragment 2</string>
+    <string name="enter_data_for_fragment_2">Enter data for Fragment 2</string>
+    <string name="received_data">Received Data:</string>
+    <string name="send_to_fragment_2">Send to Fragment 2</string>
+</resources>
