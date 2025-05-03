@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="gotonextbutton">Gotonextbutton</string>
+    <string name="_1">+1</string>
+    <string name="send">SEND</string>
+    <string name="secondactivity">secondactivity</string>
+    <string name="textview">TextView</string>
+    <string name="show_toast">SHOW Toast</string>
+    <string name="opencamera">OPENCAMERA</string>
+    <string name="select_image">Select IMAGE</string>
+    <string name="open_alert_dialogue">OPEN ALERT DIALOGUE</string>
+    <string name="textview11">TextView</string>
+    <string name="textview22">TextView</string>
+    <string name="textview33">TextView</string>
+    <string name="textview44">TextView</string>
+    <string name="show_pref">Show Pref</string>
+    <string name="save_pref">Save Pref</string>
+    <string name="show_data">Show Data</string>
+    <string name="download_image">Download Image</string>
+    <string name="download_web_content">Download Web Content</string>
+    <string name="save_into_file">Save-into-File</string>
+    <string name="show_into_file">Show-Into-File</string>
+    <string name="name">Name</string>
+</resources>
