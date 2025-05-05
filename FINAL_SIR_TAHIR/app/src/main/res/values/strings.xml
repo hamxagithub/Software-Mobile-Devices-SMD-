@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textview22">TextView</string>
+    <string name="start_service22">Start Service</string>
+    <string name="stop_service2233">Stop Service</string>
+</resources>
